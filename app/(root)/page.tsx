@@ -17,8 +17,8 @@ export default function Home() {
       <div className="pb-10 pt-4 md:flex md:h-hero md:flex-col md:items-center md:justify-center md:py-0">
         <h1 className="my-4 text-3xl font-extrabold leading-tight tracking-tight md:text-center md:text-6xl lg:leading-[1.1]">
           <Balancer>
-            Hey there ,{/* <br className="hidden lg:block" /> */}
-            I'm Aakash
+            Hey there&#44;{/* <br className="hidden lg:block" /> */}
+            &nbsp; I&apos;m Aakash
           </Balancer>
         </h1>
         <h1 className="mb-5 text-2xl font-light leading-relaxed tracking-tight md:text-center md:text-lg lg:leading-[1.1]">
