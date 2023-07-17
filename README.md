@@ -1,6 +1,6 @@
 # Todo
 
-- [] Contact Page
+- [x] Contact Page
 - [] Project Section
 - [] SEO
 - [] MDX
