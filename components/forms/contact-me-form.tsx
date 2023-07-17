@@ -38,9 +38,9 @@ export function ContactForm() {
   const onOpen = useAskAIModal((state) => state.onOpen);
   const { toast } = useToast();
 
-  const service_id = process.env.EMAILJS_SERVICE_ID;
-  const template_id = process.env.EMAILJS_TEMPLATE_ID;
-  const user_id = process.env.EMAILJS_USER_ID;
+  const service_id = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+  const template_id = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+  const user_id = process.env.NEXT_PUBLIC_EMAILJS_USER_ID;
 
   const form = useForm<z.infer<typeof contactSchema>>({
     resolver: zodResolver(contactSchema),
