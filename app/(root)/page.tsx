@@ -1,8 +1,7 @@
 import { Balancer } from "react-wrap-balancer";
 import { DownloadIcon, Github } from "lucide-react";
-import Link from "next/link";
 
-import { Button, buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { siteConfig } from "@/config/site";
 import { hoobies } from "@/constants";
 import { cn } from "@/lib/utils";

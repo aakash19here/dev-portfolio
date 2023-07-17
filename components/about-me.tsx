@@ -5,7 +5,7 @@ import { Separator } from "./ui/separator";
 
 function Container({ children }: { children: React.ReactNode }) {
   return (
-    <div className="mx-auto grid max-w-5xl gap-4 md:grid-cols-2 md:gap-6">
+    <div className="mx-auto grid max-w-5xl gap-4 justify-center md:grid-cols-2 md:gap-6">
       {children}
     </div>
   );
@@ -108,13 +108,13 @@ export default function AboutMe() {
             <Icons.figma className="h-8 w-8 md:h-12 md:w-12" />
             <Icons.git className="h-8 w-8 md:h-12 md:w-12" />
             <Icons.gitHub className="h-8 w-8 md:h-12 md:w-12" />
-            <Icons.axios className="h-8 w-8 md:h-12 md:w-12" />
+            <Icons.openai className="h-8 w-8 md:h-12 md:w-12" />
           </div>
           <div>
             <h3 className="text-lg font-semibold md:text-xl">Extras</h3>
             <p className="text-[--mauve11] md:text-lg">
               Authentication , DB communications , Payment gateways , UI/UX ,
-              Version Control , Data Fetching/Caching
+              Version Control , Data Fetching/Caching , OpenAI
             </p>
           </div>
         </Card>
